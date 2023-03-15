@@ -232,7 +232,7 @@
                         <img src="assets/image/portraits1.jpg" width="100%">
                     </div>
                     <div class="col-md-6">
-                        <img src="assets/image/portraits2.jpg" width="100%">
+                        <img src="assets/image/portraits.jpg" width="100%">
                     </div>
                 </div>
             </div>
@@ -282,7 +282,7 @@
             <div class="container picture-box">
                 <div class="row picture">
                     <div class="col-md-6">
-                        <img src="assets/image/out1.jpg" width="100%">
+                        <img src="assets/image/out.jpg" width="100%">
                     </div>
                     <div class="col-md-6">
                         <img src="assets/image/out2.jpg" width="100%">

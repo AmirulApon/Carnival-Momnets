@@ -2,8 +2,11 @@ html,
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
-
+.container{
+  padding:0;
+}
 .section {
   padding: 0;
   margin: 0;
@@ -147,16 +150,16 @@ body {
   align-items: start;
   justify-content: right;
   padding-left: 0rem;
+  margin-top: 20px;
 }
 .footer-link ul li,
 .footer-services ul li {
-  padding: 15px 0px;
+  padding: 7px 0px;
 }
 .subscribe label {
   margin-top: 15px;
   margin-bottom: 1rem;
 }
-
 .subscribe_form {
   margin-top: 20px;
   display: flex;
@@ -186,11 +189,9 @@ body {
   text-transform: uppercase;
   color: #fff;
 }
-
 .footer-outer {
   background-color: #ffea20;
 }
-
 .footer-outer-inner {
   height: 60px;
   background-color: #ffea20;
@@ -265,90 +266,45 @@ body {
   top: 41%;
   left: 29%;
 }
-
-.picture-text1 {
-  background: url(../image/FULLDAY11.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.picture-text2 {
-  background: url(../image/ceremony2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+.picture-text1,.picture-text2, .picture-text3, 
+.picture-text4,.picture-text5, .picture-text6, 
+.picture-text7,.picture-text8, .picture-text9 {
+  overflow: hidden;
   height: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.picture-text1 {
+  background: url(../image/FULLDAY11.jpg);
+}
+.picture-text2 {
+  background: url(../image/ceremony2.jpg);
+
+}
 .picture-text3 {
   background: url(../image/EMOTION1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .picture-text4 {
   background: url(../image/get.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .picture-text5 {
-  background: url(../image/details.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background: url(../image/details.jpg); 
 }
 .picture-text6 {
   background: url(../image/portraits.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .picture-text7 {
   background: url(../image/ceremony.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .picture-text8 {
   background: url(../image/out.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .picture-text9 {
   background: url(../image/international.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .picture-text10 {
-  background: url(../image/contact.jpg);
+  background: url(../image/weds1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
@@ -427,7 +383,6 @@ body {
   font-size: 36px;
   margin-bottom: 20px;
 }
-
 .content-header h3 {
   color: rgb(0, 0, 0);
   margin: auto;
@@ -489,7 +444,6 @@ body {
   padding: 5px;
 }
 /* --------end video contnet--------- */
-
 .service-item ul {
   display: flex;
   align-items: center;
@@ -509,7 +463,6 @@ body {
   background-color: #ffea20;
   color: #000;
 }
-
 /* -----------blog post----------- */
 .blog-post .content-text P {
   font-size: 18px;
@@ -597,16 +550,13 @@ body {
 .login-inner .content-input {
   flex-basis: 70%;
 }
-
 /* ---------package-list------------ */
-
 .content-text .about-content-text {
   color: rgb(0, 0, 0);
 }
 .about-content-inner {
   margin-bottom: 40px;
 }
-
 /* -------end about--------- */
 .content-text .information {
   padding: 21px 0px;
@@ -614,7 +564,6 @@ body {
 .content-text .information img {
   padding: 0px 0px 20px 0px;
 }
-
 /* =============photo-grid========= */
 .picture-grid {
   margin: 0;
@@ -651,9 +600,7 @@ body {
   left: 15%;
   z-index: 999;
 }
-
 /* ------login------ */
-
 .blue-btn {
   text-decoration: none;
   color: #ffffff;
@@ -668,9 +615,7 @@ body {
   background-color: #5bb4e8;
   text-decoration: none;
   padding: 13px;
-  
 }
-
 .gray-btn {
   text-decoration: none;
   color: #666666;
@@ -688,7 +633,6 @@ body {
   margin: 4px 6px;
 }
 /* --------login end------- */
-
 /* Owl */
 .item-inner {
   box-shadow: 1px 2px 3px #000000;
@@ -696,7 +640,7 @@ body {
   overflow: hidden;
 }
 .item-inner img {
-  max-height: 800px;
+  max-height: 850px;
 }
 .item-inner .item-inner-text {
   padding: 24px;
@@ -730,7 +674,6 @@ body {
   justify-content: center;
   margin: 25px;
 }
-
 .package-bottom p {
   color: #979797;
   font-size: 16px;
@@ -764,10 +707,8 @@ body {
   width: 265px;
   margin: 45px auto;
 }
-.package-btn:hover {
-  
-  background-color: #3e45cf;
-  
+.package-btn:hover { 
+  background-color: #3e45cf; 
 }
 .package-btn i {
   margin-right: 10px;
@@ -844,7 +785,6 @@ body {
 }
 /* ========End VIdeo-gallery======== */
 /* ===========photo-container============= */
-
 
 .photo-container {
   min-height: 500px;
